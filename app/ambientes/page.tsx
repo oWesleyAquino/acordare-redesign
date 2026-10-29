@@ -1,0 +1,3 @@
+import {Gallery} from '@/components/interactive';
+import {Btn} from '@/components/site-shell';
+export default function Ambientes(){return <><section className="page-hero"><div className="container"><span className="eyebrow"><span className="eyebrow-dot"/> INSPIRAÇÕES</span><h1>Seu espaço,<br/><em>suas possibilidades.</em></h1><p>Ideias para transformar cada canto da casa em um lugar onde você se reconhece.</p></div></section><section className="section gallery-section"><div className="container"><Gallery/></div></section><section className="subpage-cta"><div className="container"><h2>Encontrou a inspiração?<br/><em>Vamos torná-la real.</em></h2><Btn href="/#lojas">Encontrar uma loja</Btn></div></section></>}
