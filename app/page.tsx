@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import {ArrowDown,ArrowRight,ArrowUpRight,Layers,HeartHandshake,Truck,ShieldCheck,MoveUpRight} from 'lucide-react';
+import {ArrowUpRight,Layers,HeartHandshake,Truck,ShieldCheck,MoveUpRight} from 'lucide-react';
 import {ASSETS,categories} from '@/lib/data';
 import {Btn} from '@/components/site-shell';
 import {EditorialSlider} from '@/components/interactive';
