@@ -1,12 +1,12 @@
 export const ASSETS = {
- hero: 'https://acordare.com.br/wp-content/uploads/2026/04/sala-de-estar-01-scaled.png',
- living:'https://acordare.com.br/wp-content/uploads/2026/04/ambiente-013-scaled.png',
- bedroom:'https://images.unsplash.com/photo-1721216596273-586bfde422e7?auto=format&fit=crop&w=1800&q=85',
- dining:'https://acordare.com.br/wp-content/uploads/2026/04/mesa-flora-scaled.png',
- outdoor:'https://acordare.com.br/wp-content/uploads/2026/04/ambiente-03-scaled.png',
- office:'https://acordare.com.br/wp-content/uploads/2026/04/ambiente-02-scaled.png',
+ hero: '/images/optimized/hero.webp',
+ living:'/images/optimized/living.webp',
+ bedroom:'/images/optimized/bedroom.webp',
+ dining:'/images/optimized/dining.webp',
+ outdoor:'/images/optimized/outdoor.webp',
+ office:'/images/optimized/office.webp',
  detail:'https://acordare.com.br/wp-content/uploads/2026/04/mind-02-1-scaled.png',
- alternate:'https://acordare.com.br/wp-content/uploads/2026/04/ambiente-02-scaled.png'
+ alternate:'/images/optimized/office.webp'
 };
 export type Store = {id:string;city:string;name:string;address:string;lat:number;lng:number;type:string;url:string;maps?:string};
 // Endereços institucionais consultados em acordare.com.br em outubro de 2026.
